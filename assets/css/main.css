@@ -1526,12 +1526,12 @@ input, select, textarea {
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position-y: -50px;
-		font-family: 'Comfortaa';
 	}
 
 		#header > .container {
 			position: relative;
 			min-height: 155px;
+			font-family: 'Comfortaa';
 		}
 
 		#header h1 {
@@ -1584,7 +1584,7 @@ input, select, textarea {
 
 		#banner p {
 			font-size: 2em;
-			font-weight: 200;
+			font-weight: 300;
 			line-height: 1.25em;
 			padding-right: 1em;
 			margin: 0 0 1em 0;
@@ -1645,7 +1645,7 @@ input, select, textarea {
 		}
 
 		#content header {
-			margin: 0 0 2em 0;
+			margin: 0 0 1.5em 0;
 		}
 
 		#content .quote-list li {
@@ -1787,6 +1787,7 @@ input, select, textarea {
 
 	#navPanel, #titleBar {
 		display: none;
+		font-family: 'Comfortaa';
 	}
 
 	@media screen and (max-width: 980px) {
